@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cikm-matching"
+version = "0.1.0"
+description = ""
+authors = ["Ziqi Zhang"]
+readme = "README.md"
+packages = [{include = "cikm_matching"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+pandas = "^2.1.1"
+beautifulsoup4 = "^4.12.2"
+lxml = "^4.9.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
